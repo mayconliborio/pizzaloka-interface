@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaloka</title>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-md" id="navpo">
+                <div class="logo">
+                    <a href="#" class="navbar-brand">
+                        Pizzaloka
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbar-links">
+                    <div class="navbar-nav">
+
+                        <div class="dropdown">
+                            <a class="dropbtn nav-item nav-link" id="home-menu">Home</a>
+                            <div class="dropdown-content">
+                              <a href="#">Home 1</a>
+                              <a href="#">Home 2</a>
+                              <a href="#">Home 3</a>
+                            </div>
+                          </div>
+
+
+
+                        <a class="nav-item nav-link" href="#" id="about-menu">Menu</a>
+                        <a class="nav-item nav-link" href="#" id="services-menu">About</a>
+                        <a class="nav-item nav-link" href="#" id="team-menu">Shop</a>
+                        <a class="nav-item nav-link" href="#" id="portfolio-menu">Blog</a>
+                        <a class="nav-item nav-link" href="#" id="contact-menu">Contact</a>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <button class="cart-btn">
+                        <i class="fa fa-shopping-cart" id="cart-icon"></i>
+                        Cart
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <div id="carousel-area">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="col-12 merchan">
+                    <h1 class="main-title">Allways Fresh and Tasty</h1>
+                    <button class="order-btn">
+                        <i class="fa fa-shopping-cart" id="cart-icon"></i>
+                        Order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="background" class="container-fluid">
+
+        <!-- Menu -->
+        <div class="container">
+            <div class="col-12">
+                <h2 class="secondary-title">Menu</h2>
+            </div>
+
+            <!-- Menu Pizzas -->
+            <div id="menu-pizzas">
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/p1.jpg" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body product-caption">
+                                    <h5 class="card-title">FANTASTIC IRON SHOES</h5>
+                                    <p class="card-text type-food">Pizza, uncategorized</p>
+                                    <p class="card-text price">R$ 120,99</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/p10.jpg" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">SLEEK IRON CLOCK</h5>
+                                    <p class="card-text type-food">Pizza, uncategorized</p>
+                                    <p class="card-text price">R$ 110,35</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/p2.jpg" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">GORGEOUS SILK PLATE</h5>
+                                    <p class="card-text type-food">Pizza, uncategorized</p>
+                                    <p class="card-text price">R$ 150,67</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/k1.jpg" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">INTELLIGENT WOODEN TABLE</h5>
+                                    <p class="card-text type-food">Kebab, uncategorized</p>
+                                    <p class="card-text price">R$ 99,99</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/s1.jpg" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">RUSTIC MARBLE LAMP</h5>
+                                    <p class="card-text type-food">Salad, uncategorized</p>
+                                    <p class="card-text price">R$ 65,49</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/pizza.jpg" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">FANTASTIC MARBLE BAG</h5>
+                                    <p class="card-text type-food">Pizza, uncategorized</p>
+                                    <p class="card-text price">R$ 118,34</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/prod201.png" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">MEDIOCRE ALUMINUM SHIRT</h5>
+                                    <p class="card-text type-food">Drink, uncategorized</p>
+                                    <p class="card-text price">R$ 35,99</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/prod2010.png" class="card-img-top" alt="Pizza 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">AERODYNAMIC IRON TABLE</h5>
+                                    <p class="card-text type-food">Drink, uncategorized</p>
+                                    <p class="card-text price">R$ 47,79</p>
+                                    <a class="btn btn-primary-me">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container merchan-area">
+            <div class="row" id="merchan-img">
+                <div class="col-md-5 coluna1">
+                    <h3>SUPPER, DELICIOUS PIZZA</h3>
+                    <p>Feel Hunger! Order Your Favouriate Food.</p>
+                    <button class="order-btn">
+                        <i class="fa fa-shopping-cart" id="cart-icon"></i>
+                        Order Now
+                    </button>
+                </div>
+                <div class="col-md-6 coluna2">
+                    <img src="img/h3_pizza-1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="icon-area">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 card-icon">
+                        <i class="fas fa-truck"></i>
+                        <div class="card-icon-body">
+                            <h3>Free shipping</h3>
+                            <p>Sign up for updates and get free shipping in your pizzas</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 card-icon">
+                        <i class="far fa-clock"></i>
+                        <div class="card-icon-body">
+                            <h3>30 Minutes Delivery</h3>
+                            <p>Everything you oder will be quickly delivered to your door</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 card-icon">
+                        <i class="fas fa-pizza-slice"></i>
+                        <div class="card-icon-body">
+                            <h3>Best Quality Guarantee</h3>
+                            <p>Pizzaloka is an international chain of family restaurants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="news-area">
+            <div class="container">
+                <div class="column">
+                    <div class="col-md-12">
+                        <h3 class="news-title">SUBSCRIBE TO NEWSLETTER</h3>
+                    </div>
+                    <p class="news-text">Subscribe to receive our weekly Hot Promotion every Monday!</p>
+                    <form action="">
+                        <input type="email" class="form-control" id="email-input" name="email"
+                            placeholder="Yor e-mail adress">
+                        <input type="submit" id="news-btn" value="sign up">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="logo">
+                            <a href="#">
+                                Pizzaloka
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 footer-end">
+                        <span>Copyright &copy; 2021 <a href="#">Pizzaloka</a>. All Rights Reserved</span>
+                        <span>570 8th Ave, New York, NY 10018 United States</span>
+                        <span>Contact: Call and Order: +1 718-904-4450</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts do Projeto -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
